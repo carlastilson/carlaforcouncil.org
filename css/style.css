@@ -1183,3 +1183,7 @@ a[title="See Carla's complete Twitter timeline"]:hover, a[title="See Carla's com
     }
 #nav > ul > li > a:focus 
     {    font-weight: bold;    }
+a[href="#top"] {
+}
+a[href="#top"]:hover, a[href="#top"]:focus {
+}
