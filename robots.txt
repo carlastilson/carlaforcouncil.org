@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /gdform.php
+Disallow: /webformmailer.php
+Disallow: /missing.html
+Disallow: /stats
+
