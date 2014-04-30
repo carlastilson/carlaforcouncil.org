@@ -1,13 +1,5 @@
 @charset 'UTF-8';
 
-@font-face {
-	font-family: 'FontAwesome';
-	src: url('font/fontawesome-webfont.eot?v=3.2.1');
-	src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /*
 	Telephasic 1.0 by HTML5 UP
 	html5up.net | @n33co
@@ -1108,9 +1100,18 @@
     {
         cursor: pointer
     }
-#qualifications {  list-style-type: disc;  margin-left: 2.5em;}
-#education-lead, #non-profit-lead, #business-lead, #mom-lead, #property-lead, #childbirth-lead {  font-size: 0.9em;  height: 1.3em;  line-height: 1.3em;
-  margin-bottom: .5em;  padding-left: 1em;  text-align: justify;}
+#qualifications {
+  list-style-type: disc;
+  margin-left: 2.5em;
+}
+#education-lead, #non-profit-lead, #business-lead, #mom-lead, #property-lead, #childbirth-lead {
+  font-size: 0.9em;
+  height: 1.3em;
+  line-height: 1.3em;
+  margin-bottom: .5em;
+  padding-left: 1em;
+  text-align: justify;
+}
 #education-lead a, #non-profit-lead a, #business-lead a, #mom-lead a, #property-lead a, #childbirth-lead a
 	{
        font-size: 1.2em;
@@ -1153,7 +1154,11 @@ header > h2 > span
     }
 #video-caption
     {
-        font-size: 0.8em;        line-height: 1.1em;        position: relative;        text-align: center;        top: .9em
+        font-size: 0.8em;
+        line-height: 1.1em;
+        position: relative;
+        text-align: center;
+        top: .9em
     }
 img {
     -webkit-backface-visibility: hidden;
@@ -1182,7 +1187,9 @@ a[title="See Carla's complete Twitter timeline"]:hover, a[title="See Carla's com
     text-align: left
     }
 #nav > ul > li > a:focus 
-    {    font-weight: bold;    }
+    {
+    font-weight: bold;
+    }
 a[href="#top"] {
 }
 a[href="#top"]:hover, a[href="#top"]:focus {
